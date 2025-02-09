@@ -1,0 +1,18 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f4; /* Pastel pink background */
+    color: #333333; /* Dark gray text */
+}
+
+/* Main Content Container */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 20px;
+}

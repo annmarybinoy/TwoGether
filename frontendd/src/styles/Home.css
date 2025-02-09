@@ -1,0 +1,36 @@
+/* Heart Styles */
+.heart-container {
+    font-size: 50px;
+    cursor: pointer;
+    color: #ff6f61; /* Reddish-pink */
+    transition: transform 0.2s ease-in-out, color 0.3s ease;
+}
+
+.heart-container:hover {
+    transform: scale(1.1);
+    color: #ff9a8d; /* Lighter reddish-pink for hover effect */
+}
+
+/* Notifications Styles */
+.notifications {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333333; /* Dark gray text */
+    background-color: #ffcccb; /* Pastel coral background */
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.heart-icon {
+    font-size: 3rem; /* Adjust the size as needed */
+    color: #E63946; /* Cute Red */
+}

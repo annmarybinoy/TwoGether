@@ -1,0 +1,34 @@
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #ff6f61; /* Reddish-pink */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-item:hover {
+    color: #ffcccb; /* Pastel coral for hover effect */
+}
+
+.footer-item i {
+    font-size: 20px;
+}
+
+.footer-item span {
+    font-size: 14px;
+    margin-top: 5px;
+}

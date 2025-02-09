@@ -1,0 +1,61 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Increased padding for thicker navbar */
+    background-color: #ff6f61; /* Reddish-pink */
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+/* .navbar-center h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+} */
+
+.navbar-title {
+    font-family: 'Pacifico', cursive; /* Change the font family */
+    font-size: 36px; /* Increase the font size */
+    font-weight: 700; /* Increase the font weight */
+}
+
+.navbar-right i {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-right i + i { /* Add space between icons */
+    margin-left: 40px;
+}
+
+.navbar-right i:hover {
+    color: #ffcccb; /* Pastel coral for hover effect */
+}
+
+.navbar-left i {
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-left i:hover {
+    color: #ffcccb; /* Pastel coral for hover effect */
+}
+
+/* Add specific margin to the calendar icon */
+.navbar-right .fa-calendar-alt {
+    margin-left: 40px; /* Adjust the value as needed */
+}
+.icon{
+    padding:20px;
+}
