@@ -1,5 +1,6 @@
 # TwoGether
 A private space for couples to share, connect and cherish their moments. Love-powered features--- just for the two of you
+
 Overview
 
 This project is a private and secure Couples Interaction Website, designed exclusively for two partners. It allows couples to interact, share moments, and communicate in a secure and intimate digital space.
@@ -47,12 +48,6 @@ Password protection to ensure only the couple can access the app.
 7️⃣ Audio & Video Calls
 
 Built-in audio and video call features for instant face-to-face interactions.
-
-8️⃣ Interactive Heart Feature
-
-A heart icon in the center of the homepage.
-
-Each tap increases its size, and after a limit, it bursts and sends a "Miss You" message to the partner.
 
 Technology Stack
 
